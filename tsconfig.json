@@ -7,9 +7,10 @@
       "outDir": "dist"
     },
     "include": [
-      "src"
+      "src", "typings.d.ts"
     ],
     "exclude": [
       "**/*.test.ts"
     ],
+    "ts-node": {"files": true}
   }
